@@ -9,5 +9,5 @@
 import UIKit
 
 class User: NSObject {
-
+    static let userDidLogoutNotification = NSNotification.Name(rawValue: "UserDidLogout")
 }
